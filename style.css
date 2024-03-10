@@ -1,0 +1,366 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* Main Body */
+* {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+/* Nvigation Bar  */
+.navbar-toggler {
+  border: none !important;
+}
+
+button.navbar-toggler.collapsed {
+  border: none !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-link {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151414;
+}
+
+.navbar-brand{
+  font-weight: 500;
+}
+
+/*Code to change color of active link*/
+.navbar-nav > .active > a {
+  color: #0d6efd;
+}
+
+/* Services Card */
+.services-card {
+  width: 27%;
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+}
+
+.Services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.services-card .Sc-a {
+  text-decoration: none;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.services-card .sc-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* ======================================================================== */
+
+/* About Us Sectionn  */
+
+/* ======================================================================== */
+
+#page-header {
+  border-bottom: 2px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.expert-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 1px solid;
+  /* border-radius: 10px 0px 15px; */
+}
+
+.upper-text {
+  /* position: absolute; */
+  font-size: 20px;
+  background-color: #b4d0e4d1;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 0px 0px 10px 10px;
+  /* width: 200000px */
+  /* bottom: 4%; */
+}
+
+#team {
+  gap: 20px;
+}
+
+/* ============================================================================ */
+
+/* Services */
+
+/* ============================================================================ */
+
+.service-head > img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  background-position: center;
+}
+
+/* ============================================================================ */
+
+/* Footer */
+
+/* ============================================================================ */
+
+/* Footer  */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 20px;
+  margin-left: 5%;
+  /* display: inline-block; */
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg {
+  background: #3b5998;
+}
+.twitter-bg {
+  background: #55acee;
+}
+.google-bg {
+  background: #dd4b39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+/* Media Query */
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+  .Services {
+    flex-direction: column;
+  }
+  .services-card {
+    width: 100%;
+  }
+  .services-card .sc-title {
+    margin: 0%;
+    font-size: 15px;
+  }
+  .services-card .Sc-a {
+    font-size: 12px;
+  }
+  .expert-img {
+    height: 380px;
+  }
+  .upper-text {
+    font-size: 20px;
+  }
+
+  .who-we-h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .who-we-h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .who-we-desc {
+    font-size: 12px;
+  }
+  .navbar-brand{
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Adjust styles for medium screens */
+  .services-card {
+    width: 30%;
+  }
+  .services-card .Sc-a {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+  .services-card .sc-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0%;
+  }
+  /* Our Expert */
+  .expert-img {
+    height: 200px;
+  }
+  .upper-text {
+    font-size: 15px;
+  }
+}
+
+/* Large screens (laptops) */
+@media screen and (min-width: 993px) and (max-width: 1440px) {
+  /* Adjust styles for laptops with a width up to 1440px */
+  .services-card {
+    width: 30%;
+  }
+  .services-card .sc-title {
+    font-size: 15px;
+  }
+}
+
+/* Extra-large screens (larger desktops) */
+@media screen and (min-width: 1041px) {
+}
