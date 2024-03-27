@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+li{
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
 /* Nvigation Bar  */
 .navbar-toggler {
   border: none !important;
