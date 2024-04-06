@@ -36,6 +36,30 @@
       href="./Assets/Images/favicon-16x16.png"
     />
     <link rel="manifest" href="./Assets/Images/site.webmanifest" />
+    <style>
+      .section-title {
+        border-bottom-width: 0px;
+        margin-bottom: 90px;
+        position: relative;
+      }
+      a.colorblue {
+        color: #0086da;
+      }
+      .section-title h2:before{
+        background-color: #0086da;
+      }
+      .section-title h2:before {
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        right: 0;
+        margin: -2px auto;
+        position: absolute;
+        width: 60px;
+      }
+    </style>
   </head>
   <body>
     <!-- Navigation Section -->
@@ -51,6 +75,7 @@
               alt=""
               srcset=""
             />
+            A A Dubey & ASSOCIATES
           </a>
           <button
             class="navbar-toggler"
@@ -68,19 +93,25 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" aria-current="page" href="./Index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./service.html">Service's</a>
+                <a class="nav-link" href="./service.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./service.html">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./Aboutus.html">About Us</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link">Contact Us</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./career.html">Careers </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contactUs.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -95,6 +126,30 @@
         <div class="container">
           <h1 class="fw-bold fs-1">Contact Us</h1>
           <p class="fw-bold">Home / Contact Us</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-5 justify-content-center d-flex gap-5">
+          <div class="section-title" data-animation="fadeInRight">
+            <h2 class="title">Head Office</h2>
+          </div>
+          <div>
+            H N A &amp; Co LLP (formerly known as Hiregange &amp; Associates
+            LLP)<br />
+            1010, 2nd Floor (Above Union Bank)<br />
+            26th Main, 4th "T" Block, Jayanagar<br />
+            Bengaluru - 560 041.
+            <a
+              class="colorblue"
+              target="_blank"
+              href="https://maps.app.goo.gl/BvnwR3zfH67YGyVL6"
+              >Directions</a
+            ><br />
+            Phone: 080-26536404/05 / 080-41210703 / 9611598140 <br />
+            E-mail: <a href="mailto:roopa@hnaindia.com">roopa@hnaindia.com</a
+            ><br />
+          </div>
         </div>
       </section>
 
@@ -177,43 +232,6 @@
                   </div>
                 </div>
               </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Our Services Section -->
-      <section>
-        <div class="container mt-4 py-4">
-          <h1 class="text-wrap fs-1 fw-bold text-center">OUR SERVICES</h1>
-          <div class="Services">
-            <div class="services-card">
-              <p class="sc-title">GST & <br />INCOME TAX</p>
-              <a href="./GST.html" class="Sc-a">Read More</a>
-            </div>
-            <div class="services-card">
-              <p class="sc-title">
-                FINANCIAL MODELLING & <br />
-                BUDEGETING
-              </p>
-              <a href="./FB.html" class="Sc-a">Read More</a>
-            </div>
-            <div class="services-card">
-              <p class="sc-title">AUDITS & <br />REVIEWS</p>
-              <a href="./Audit.html" class="Sc-a">Read More</a>
-            </div>
-          </div>
-          <div class="Services">
-            <div class="services-card">
-              <p class="sc-title">TAX TRAININGS & <br />HELP DESK</p>
-              <a href="./TAX HELP.html" class="Sc-a">Read More</a>
-            </div>
-            <div class="services-card">
-              <p class="sc-title">
-                INCOME <br />
-                TAX
-              </p>
-              <a href="./incomeTex.html" class="Sc-a">Read More</a>
             </div>
           </div>
         </div>

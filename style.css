@@ -11,6 +11,18 @@ li{
   font-size: 18px;
 }
 
+.h1{
+  font-size: 19px;
+}
+
+h2,h3,h4{
+  font-size: 17px;
+}
+
+.ul .li {
+  font-size: 15px;
+}
+
 /* Nvigation Bar  */
 .navbar-toggler {
   border: none !important;
@@ -37,8 +49,8 @@ button:focus:not(:focus-visible) {
 }
 
 /*Code to change color of active link*/
-.navbar-nav > .active > a {
-  color: #0d6efd;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: #3b5998;
 }
 
 /* Services Card */
@@ -113,7 +125,7 @@ button:focus:not(:focus-visible) {
 
 .service-head > img {
   width: 100%;
-  height: 360px;
+  height: 460px;
   object-fit: cover;
   background-position: center;
 }
@@ -286,6 +298,26 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+
+/* ==================================== */
+
+.section-title h2 {
+  font-size: 28px;
+}
+.section-title h2 {
+  /* text-transform: uppercase; */
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  margin: 0 0 12px;
+  padding: 14px 0;
+}
+.item-box {
+  padding-bottom: 40px;
+}
+
+
+/* ==================================== */
 
 /* Media Query */
 
