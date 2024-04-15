@@ -135,6 +135,13 @@ button:focus:not(:focus-visible) {
   background-position: center;
 }
 
+.key{
+  text-decoration: underline;
+  line-height: 20px !important;
+  font-size: 16px !important;
+  color: #0086da;
+}
+
 /* ============================================================================ */
 
 /* Footer */
@@ -190,7 +197,7 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-  max-width: 200px;
+  max-width: 360px;
 }
 .footer-text p {
   margin-bottom: 14px;
